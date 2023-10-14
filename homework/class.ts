@@ -216,10 +216,10 @@
 // console.log("arr2 : ", arr2);
 
 // 9-misol
-const mergeObjects = <T>(obj1: T, obj2: T) => {
+const mergeObjects = <T1, T2>(obj1: T1, obj2: T2) => {
   return { ...obj1, ...obj2 };
 };
-let obj1 = { name: "Alisher" };
-let obj2 = { familya: "Shodmonovich" };
-let mergeObject = mergeObjects(obj1, obj2);
+let objss1 = { ism: "Alisher" };
+let objss2 = { familya: "Shodmonovich" };
+let mergeObject = mergeObjects(objss1, objss2);
 console.log(mergeObject);
