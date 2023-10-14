@@ -1,30 +1,30 @@
-// // 1-misol
-// // class Car {
-// //   constructor(
-// //     public company: string,
-// //     public modul: string,
-// //     private year: number,
-// //     private fuelType: string
-// //   ) {
-// //     this.company = company;
-// //     this.company = company;
-// //     this.year = year;
-// //     this.fuelType = fuelType;
-// //   }
-// //   age() {
-// //     return `Kompaniya ${this.year} shu sanada ochildi`;
-// //   }
-// //   getInfo() {
-// //     return `${this.company} kompaniyasi hozirgi kunda eng mashhur kompaniya hisoblanadi.
-// //     ${this.modul} da hamma qulayliklar mavjud. Hozirgi kunda atrof muhit juda ham rasvo bulmoqda, shuni oldini olish maqasida ${this.company} ${this.fuelType} yuradigan mashinalar ishlab chiqarmoqda.`;
-// //   }
-// // }
-// // const newCar = new Car("Tesla", "Model X", 2003, "Electric car");
-// // console.log(newCar);
-// // console.log(newCar.age());
-// // console.log(newCar.getInfo());
+// ************* 1-misol *************
+// class Car {
+//   constructor(
+//     public company: string,
+//     public modul: string,
+//     private year: number,
+//     private fuelType: string
+//   ) {
+//     this.company = company;
+//     this.company = company;
+//     this.year = year;
+//     this.fuelType = fuelType;
+//   }
+//   age() {
+//     return `Kompaniya ${this.year} shu sanada ochildi`;
+//   }
+//   getInfo() {
+//     return `${this.company} kompaniyasi hozirgi kunda eng mashhur kompaniya hisoblanadi.
+//     ${this.modul} da hamma qulayliklar mavjud. Hozirgi kunda atrof muhit juda ham rasvo bulmoqda, shuni oldini olish maqasida ${this.company} ${this.fuelType} yuradigan mashinalar ishlab chiqarmoqda.`;
+//   }
+// }
+// const newCar = new Car("Tesla", "Model X", 2003, "Electric car");
+// console.log(newCar);
+// console.log(newCar.age());
+// console.log(newCar.getInfo());
 
-// // 2-misol
+// ************* 2-misol *************
 // class Products {
 //   constructor(
 //     public name: string,
@@ -51,7 +51,7 @@
 // console.log(newProduct.add(10));
 // console.log(newProduct.sell(5));
 
-// // 3-misol
+// ************* 3-misol *************
 // class TodoList {
 //   private todos: { id: number; name: string }[] = [];
 //   addTask(name: string): void {
@@ -84,7 +84,7 @@
 // console.log(CRUD.getTask(1));
 // console.log(CRUD.getTasks());
 
-// // 4-misol
+// ************* 4-misol *************
 // class Employee {
 //   firstName: string;
 //   lastName: string;
@@ -138,7 +138,7 @@
 // const developer = new Developer("Javohir", "Jumayev", "Engener", "JavaScript");
 // developer.introduce();
 
-// // 5-misol
+// ************* 5-misol *************
 // interface Person {
 //   name: string;
 //   age: number;
@@ -168,7 +168,7 @@
 // };
 // console.log(allInterface);
 
-// // 6-misol
+// ************* 6-misol *************
 // interface Square {
 //   sideLength: number;
 // }
@@ -197,7 +197,7 @@
 // console.log(calculateArea(square));
 // console.log(calculatePerimetr(circle));
 
-// 7-misol
+// ************* 7-misol *************
 // const getArrayLength = <T>(arr: T[]) => {
 //   return arr.length;
 // };
@@ -206,7 +206,7 @@
 // console.log("arr1 : ", arr1);
 // console.log("arr2 : ", arr2);
 
-// 8-misol
+// ************* 8-misol *************
 // const reverseArray = <T>(arr: T[]) => {
 //   return arr.reverse();
 // };
@@ -215,7 +215,7 @@
 // console.log("arr1 : ", arr1);
 // console.log("arr2 : ", arr2);
 
-// 9-misol
+// ************* 9-misol *************
 // const mergeObjects = <T1, T2>(obj1: T1, obj2: T2) => {
 //   return { ...obj1, ...obj2 };
 // };
@@ -224,7 +224,7 @@
 // let mergeObject = mergeObjects(objss1, objss2);
 // console.log(mergeObject);
 
-// 10-misol
+// ************* 10-misol *************
 const shuffleArray = <T>(arr: T[]) => {
   const newArr = [...arr];
   for (let i = newArr.length - 1; i > 0; i--) {
